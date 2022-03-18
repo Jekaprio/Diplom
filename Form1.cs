@@ -188,10 +188,5 @@ namespace WindowsFormsApp2
         {
             Process.Start(@"doc\index4.html");
         }
-
-        private void materialButton24_Click(object sender, EventArgs e)
-        {
-            Process.Start(@"doc\index5.html");
-        }
     }
 }
