@@ -29,165 +29,85 @@ namespace WindowsFormsApp2
 
         }
 
-        private void materialCard1_Paint(object sender, PaintEventArgs e)
+        private void Карта_елеваторів(object sender, EventArgs e)
         {
+            Process.Start(@"");
 
         }
-
-        private void materialLabel1_Click(object sender, EventArgs e)
+        private void Ціни_на_пальне(object sender, EventArgs e)
         {
-
+            Process.Start(@"");
         }
 
-        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        private void Продавці(object sender, EventArgs e)
         {
-
+            Process.Start(@"");
         }
 
-        private void tab1_Click(object sender, EventArgs e)
+        private void Виробники_СГ_техніки(object sender, EventArgs e)
         {
-
+            Process.Start(@"");
         }
 
-        private void materialButton1_Click(object sender, EventArgs e)
+        private void Виробники_препаратів(object sender, EventArgs e)
         {
-
+            Process.Start(@"");
         }
 
-        private void materialButton1_Click_1(object sender, EventArgs e)
+        private void Перелік_юр_компаній(object sender, EventArgs e)
         {
-
+            Process.Start(@"");
         }
 
-        private void materialButton2_Click(object sender, EventArgs e)
+        private void Реєстрація_сортів_в_Україні(object sender, EventArgs e)
         {
-
+            Process.Start(@"");
         }
 
-        private void materialButton3_Click(object sender, EventArgs e)
+        private void Максимальні_допустимі_рівні_вмісту_пестицидів(object sender, EventArgs e)
         {
-
+            Process.Start(@"");
         }
 
-        private void materialButton1_Click_2(object sender, EventArgs e)
+        private void Утилізації_пестицидів(object sender, EventArgs e)
         {
-            Process.Start(@"doc\elevator.html");
-
+            Process.Start(@""); 
         }
 
-        private void materialButton2_Click_1(object sender, EventArgs e)
+        private void Правила_поводження_з_тарою_від_ЗЗР(object sender, EventArgs e)
         {
-            Process.Start(@"doc\azc.html");
+            Process.Start(@"");
         }
 
-        private void materialButton3_Click_1(object sender, EventArgs e)
+        private void Основні_питання_попестицидах(object sender, EventArgs e)
         {
-            Process.Start(@"doc\gla.html");
+            Process.Start(@"");
         }
 
-        private void materialButton4_Click(object sender, EventArgs e)
+        private void Препаративні_форми_пестицидів_агрохімікатів_добрив(object sender, EventArgs e)
         {
-            Process.Start(@"doc\mys.html");
+            Process.Start(@"");
         }
 
-        private void materialMultiLineTextBox9_TextChanged(object sender, EventArgs e)
+        private void Діючи_речовини_що_заборонені_в_Україні(object sender, EventArgs e)
         {
-
+            Process.Start(@"");
         }
 
-        private void materialButton5_Click(object sender, EventArgs e)
+        private void Групи_діючих_речовин(object sender, EventArgs e)
         {
-            Process.Start(@"doc\GLAV.html");
+            Process.Start(@"");
         }
 
-        private void materialButton8_Click(object sender, EventArgs e)
+      
+        private void Шкідники(object sender, EventArgs e)
         {
-            Process.Start(@"doc\ЮР.html");
+            Process.Start(@"");
         }
 
-        private void materialButton7_Click(object sender, EventArgs e)
+        private void Технології_від_компаній(object sender, EventArgs e)
         {
-            Process.Start(@"doc\ДЕРЖАВНА РЕЄСТРАЦІЯ СОРТІВ РОСЛИН В УКРАЇНІ.html");
-        }
-
-        private void materialButton17_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void materialButton9_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void materialMultiLineTextBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void materialButton6_Click(object sender, EventArgs e)
-        {
-            Process.Start(@"doc\index.html");
-        }
-
-        private void materialButton18_Click(object sender, EventArgs e)
-        {
-            Process.Start(@"doc\УТИЛІЗАЦІЇ ПЕСТИЦИДІВ.html"); 
-        }
-
-        private void materialButton21_Click(object sender, EventArgs e)
-        {
-            Process.Start(@"doc\ZZR.html");
-        }
-
-        private void materialButton19_Click(object sender, EventArgs e)
-        {
-            Process.Start(@"doc\pit\index2.html");
-        }
-
-        private void materialButton20_Click(object sender, EventArgs e)
-        {
-            Process.Start(@"doc\Препаративні форми пестицидів, агрохімікатів та добрив.html");
-        }
-
-        private void materialMultiLineTextBox20_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void materialMultiLineTextBox7_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void materialButton9_Click_1(object sender, EventArgs e)
-        {
-            Process.Start(@"doc\GLAVNAY.html");
-        }
-
-        private void materialButton17_Click_1(object sender, EventArgs e)
-        {
-            Process.Start(@"doc\GLAVN.html");
-        }
-
-        private void materialMultiLineTextBox22_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void materialButton22_Click(object sender, EventArgs e)
-        {
-            Process.Start(@"doc\index3.html");
-        }
-
-        private void materialButton23_Click(object sender, EventArgs e)
-        {
-            Process.Start(@"doc\index4.html");
+            Process.Start(@"");
         }
     }
 }

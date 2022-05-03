@@ -65,6 +65,8 @@ namespace WindowsFormsApp2
             this.materialMultiLineTextBox23 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
             this.materialButton23 = new MaterialSkin.Controls.MaterialButton();
             this.tab6 = new System.Windows.Forms.TabPage();
+            this.webControl2 = new EO.WinForm.WebControl();
+            this.webView2 = new EO.WebBrowser.WebView();
             this.tab4 = new System.Windows.Forms.TabPage();
             this.materialCard16 = new MaterialSkin.Controls.MaterialCard();
             this.materialMultiLineTextBox16 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
@@ -110,11 +112,9 @@ namespace WindowsFormsApp2
             this.materialMultiLineTextBox8 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
             this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
             this.tab1 = new System.Windows.Forms.TabPage();
-            this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
-            this.webControl2 = new EO.WinForm.WebControl();
             this.webControl1 = new EO.WinForm.WebControl();
             this.webView1 = new EO.WebBrowser.WebView();
-            this.webView2 = new EO.WebBrowser.WebView();
+            this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
             this.tab10.SuspendLayout();
             this.materialCard17.SuspendLayout();
             this.materialCard9.SuspendLayout();
@@ -239,7 +239,7 @@ namespace WindowsFormsApp2
             this.materialButton17.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton17.UseAccentColor = false;
             this.materialButton17.UseVisualStyleBackColor = true;
-            this.materialButton17.Click += new System.EventHandler(this.materialButton17_Click_1);
+            this.materialButton17.Click += new System.EventHandler(this.Групи_діючих_речовин);
             // 
             // materialCard9
             // 
@@ -291,7 +291,7 @@ namespace WindowsFormsApp2
             this.materialButton9.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton9.UseAccentColor = false;
             this.materialButton9.UseVisualStyleBackColor = true;
-            this.materialButton9.Click += new System.EventHandler(this.materialButton9_Click_1);
+            this.materialButton9.Click += new System.EventHandler(this.Діючи_речовини_що_заборонені_в_Україні);
             // 
             // tab9
             // 
@@ -350,7 +350,6 @@ namespace WindowsFormsApp2
             this.materialMultiLineTextBox22.Size = new System.Drawing.Size(151, 58);
             this.materialMultiLineTextBox22.TabIndex = 11;
             this.materialMultiLineTextBox22.Text = "Технології від компаній";
-            this.materialMultiLineTextBox22.TextChanged += new System.EventHandler(this.materialMultiLineTextBox22_TextChanged);
             // 
             // materialButton22
             // 
@@ -370,7 +369,7 @@ namespace WindowsFormsApp2
             this.materialButton22.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton22.UseAccentColor = false;
             this.materialButton22.UseVisualStyleBackColor = true;
-            this.materialButton22.Click += new System.EventHandler(this.materialButton22_Click);
+            this.materialButton22.Click += new System.EventHandler(this.Технології_від_компаній);
             // 
             // materialCard21
             // 
@@ -422,7 +421,7 @@ namespace WindowsFormsApp2
             this.materialButton21.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton21.UseAccentColor = false;
             this.materialButton21.UseVisualStyleBackColor = true;
-            this.materialButton21.Click += new System.EventHandler(this.materialButton21_Click);
+            this.materialButton21.Click += new System.EventHandler(this.Правила_поводження_з_тарою_від_ЗЗР);
             // 
             // materialCard20
             // 
@@ -455,7 +454,6 @@ namespace WindowsFormsApp2
             this.materialMultiLineTextBox20.Size = new System.Drawing.Size(151, 75);
             this.materialMultiLineTextBox20.TabIndex = 11;
             this.materialMultiLineTextBox20.Text = "Препаративні форми пестицидів, агрохімікатів,добрив";
-            this.materialMultiLineTextBox20.TextChanged += new System.EventHandler(this.materialMultiLineTextBox20_TextChanged);
             // 
             // materialButton20
             // 
@@ -475,7 +473,7 @@ namespace WindowsFormsApp2
             this.materialButton20.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton20.UseAccentColor = false;
             this.materialButton20.UseVisualStyleBackColor = true;
-            this.materialButton20.Click += new System.EventHandler(this.materialButton20_Click);
+            this.materialButton20.Click += new System.EventHandler(this.Препаративні_форми_пестицидів_агрохімікатів_добрив);
             // 
             // materialCard19
             // 
@@ -527,7 +525,7 @@ namespace WindowsFormsApp2
             this.materialButton19.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton19.UseAccentColor = false;
             this.materialButton19.UseVisualStyleBackColor = true;
-            this.materialButton19.Click += new System.EventHandler(this.materialButton19_Click);
+            this.materialButton19.Click += new System.EventHandler(this.Основні_питання_попестицидах);
             // 
             // materialCard18
             // 
@@ -579,7 +577,7 @@ namespace WindowsFormsApp2
             this.materialButton18.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton18.UseAccentColor = false;
             this.materialButton18.UseVisualStyleBackColor = true;
-            this.materialButton18.Click += new System.EventHandler(this.materialButton18_Click);
+            this.materialButton18.Click += new System.EventHandler(this.Утилізації_пестицидів);
             // 
             // materialCard5
             // 
@@ -612,7 +610,6 @@ namespace WindowsFormsApp2
             this.materialMultiLineTextBox2.Size = new System.Drawing.Size(151, 58);
             this.materialMultiLineTextBox2.TabIndex = 11;
             this.materialMultiLineTextBox2.Text = "Максимальні допустимі рівні вмісту пестицидів ";
-            this.materialMultiLineTextBox2.TextChanged += new System.EventHandler(this.materialMultiLineTextBox2_TextChanged);
             // 
             // materialButton6
             // 
@@ -632,7 +629,7 @@ namespace WindowsFormsApp2
             this.materialButton6.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton6.UseAccentColor = false;
             this.materialButton6.UseVisualStyleBackColor = true;
-            this.materialButton6.Click += new System.EventHandler(this.materialButton6_Click);
+            this.materialButton6.Click += new System.EventHandler(this.Максимальні_допустимі_рівні_вмісту_пестицидів);
             // 
             // tab7
             // 
@@ -696,7 +693,7 @@ namespace WindowsFormsApp2
             this.materialButton23.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton23.UseAccentColor = false;
             this.materialButton23.UseVisualStyleBackColor = true;
-            this.materialButton23.Click += new System.EventHandler(this.materialButton23_Click);
+            this.materialButton23.Click += new System.EventHandler(this.Шкідники);
             // 
             // tab6
             // 
@@ -708,6 +705,24 @@ namespace WindowsFormsApp2
             this.tab6.TabIndex = 5;
             this.tab6.Text = "Штат";
             this.tab6.UseVisualStyleBackColor = true;
+            // 
+            // webControl2
+            // 
+            this.webControl2.BackColor = System.Drawing.Color.White;
+            this.webControl2.Location = new System.Drawing.Point(-4, -5);
+            this.webControl2.Name = "webControl2";
+            this.webControl2.Size = new System.Drawing.Size(1049, 739);
+            this.webControl2.TabIndex = 0;
+            this.webControl2.Text = "webControl2";
+            this.webControl2.WebView = this.webView2;
+            // 
+            // webView2
+            // 
+            this.webView2.InputMsgFilter = null;
+            this.webView2.ObjectForScripting = null;
+            this.webView2.Title = null;
+            this.webView2.UnloadDelay = 0;
+            this.webView2.Url = "https://www.appsheet.com/start/e6ea9ee4-20d7-4399-8d7b-350f39f352b2";
             // 
             // tab4
             // 
@@ -1149,7 +1164,7 @@ namespace WindowsFormsApp2
             this.materialButton8.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton8.UseAccentColor = false;
             this.materialButton8.UseVisualStyleBackColor = true;
-            this.materialButton8.Click += new System.EventHandler(this.materialButton8_Click);
+            this.materialButton8.Click += new System.EventHandler(this.Перелік_юр_компаній);
             // 
             // materialCard7
             // 
@@ -1200,7 +1215,7 @@ namespace WindowsFormsApp2
             this.materialButton4.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton4.UseAccentColor = false;
             this.materialButton4.UseVisualStyleBackColor = true;
-            this.materialButton4.Click += new System.EventHandler(this.materialButton4_Click);
+            this.materialButton4.Click += new System.EventHandler(this.Виробники_СГ_техніки);
             // 
             // materialCard1
             // 
@@ -1233,7 +1248,6 @@ namespace WindowsFormsApp2
             this.materialMultiLineTextBox7.Size = new System.Drawing.Size(151, 58);
             this.materialMultiLineTextBox7.TabIndex = 11;
             this.materialMultiLineTextBox7.Text = "Карта \nелеваторів";
-            this.materialMultiLineTextBox7.TextChanged += new System.EventHandler(this.materialMultiLineTextBox7_TextChanged);
             // 
             // materialButton1
             // 
@@ -1253,7 +1267,7 @@ namespace WindowsFormsApp2
             this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton1.UseAccentColor = false;
             this.materialButton1.UseVisualStyleBackColor = true;
-            this.materialButton1.Click += new System.EventHandler(this.materialButton1_Click_2);
+            this.materialButton1.Click += new System.EventHandler(this.Карта_елеваторів);
             // 
             // materialCard6
             // 
@@ -1304,7 +1318,7 @@ namespace WindowsFormsApp2
             this.materialButton7.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton7.UseAccentColor = false;
             this.materialButton7.UseVisualStyleBackColor = true;
-            this.materialButton7.Click += new System.EventHandler(this.materialButton7_Click);
+            this.materialButton7.Click += new System.EventHandler(this.Реєстрація_сортів_в_Україні);
             // 
             // materialCard4
             // 
@@ -1355,7 +1369,7 @@ namespace WindowsFormsApp2
             this.materialButton5.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton5.UseAccentColor = false;
             this.materialButton5.UseVisualStyleBackColor = true;
-            this.materialButton5.Click += new System.EventHandler(this.materialButton5_Click);
+            this.materialButton5.Click += new System.EventHandler(this.Виробники_препаратів);
             // 
             // materialCard3
             // 
@@ -1406,7 +1420,7 @@ namespace WindowsFormsApp2
             this.materialButton3.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton3.UseAccentColor = false;
             this.materialButton3.UseVisualStyleBackColor = true;
-            this.materialButton3.Click += new System.EventHandler(this.materialButton3_Click_1);
+            this.materialButton3.Click += new System.EventHandler(this.Продавці);
             // 
             // materialCard2
             // 
@@ -1457,7 +1471,7 @@ namespace WindowsFormsApp2
             this.materialButton2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton2.UseAccentColor = false;
             this.materialButton2.UseVisualStyleBackColor = true;
-            this.materialButton2.Click += new System.EventHandler(this.materialButton2_Click_1);
+            this.materialButton2.Click += new System.EventHandler(this.Ціни_на_пальне);
             // 
             // tab1
             // 
@@ -1475,7 +1489,23 @@ namespace WindowsFormsApp2
             this.tab1.TabIndex = 0;
             this.tab1.Text = "Головна";
             this.tab1.UseVisualStyleBackColor = true;
-            this.tab1.Click += new System.EventHandler(this.tab1_Click);
+            // 
+            // webControl1
+            // 
+            this.webControl1.BackColor = System.Drawing.Color.White;
+            this.webControl1.Location = new System.Drawing.Point(0, 0);
+            this.webControl1.Name = "webControl1";
+            this.webControl1.Size = new System.Drawing.Size(1093, 742);
+            this.webControl1.TabIndex = 0;
+            this.webControl1.Text = "webControl1";
+            this.webControl1.WebView = this.webView1;
+            // 
+            // webView1
+            // 
+            this.webView1.InputMsgFilter = null;
+            this.webView1.ObjectForScripting = null;
+            this.webView1.Title = null;
+            this.webView1.Url = "http://firmagro.ua.xsph.ru/";
             // 
             // materialTabControl1
             // 
@@ -1503,41 +1533,6 @@ namespace WindowsFormsApp2
             this.materialTabControl1.ShowToolTips = true;
             this.materialTabControl1.Size = new System.Drawing.Size(1109, 800);
             this.materialTabControl1.TabIndex = 1;
-            // 
-            // webControl2
-            // 
-            this.webControl2.BackColor = System.Drawing.Color.White;
-            this.webControl2.Location = new System.Drawing.Point(-4, -5);
-            this.webControl2.Name = "webControl2";
-            this.webControl2.Size = new System.Drawing.Size(1049, 739);
-            this.webControl2.TabIndex = 0;
-            this.webControl2.Text = "webControl2";
-            this.webControl2.WebView = this.webView2;
-            // 
-            // webControl1
-            // 
-            this.webControl1.BackColor = System.Drawing.Color.White;
-            this.webControl1.Location = new System.Drawing.Point(0, 0);
-            this.webControl1.Name = "webControl1";
-            this.webControl1.Size = new System.Drawing.Size(1093, 742);
-            this.webControl1.TabIndex = 0;
-            this.webControl1.Text = "webControl1";
-            this.webControl1.WebView = this.webView1;
-            // 
-            // webView1
-            // 
-            this.webView1.InputMsgFilter = null;
-            this.webView1.ObjectForScripting = null;
-            this.webView1.Title = null;
-            this.webView1.Url = "http://firmagro.ua.xsph.ru/";
-            // 
-            // webView2
-            // 
-            this.webView2.InputMsgFilter = null;
-            this.webView2.ObjectForScripting = null;
-            this.webView2.Title = null;
-            this.webView2.UnloadDelay = 0;
-            this.webView2.Url = "https://www.appsheet.com/start/e6ea9ee4-20d7-4399-8d7b-350f39f352b2";
             // 
             // Form1
             // 
