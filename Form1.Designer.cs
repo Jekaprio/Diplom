@@ -32,7 +32,6 @@ namespace WindowsFormsApp2
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.webView1 = new EO.WebBrowser.WebView();
             this.tab11 = new System.Windows.Forms.TabPage();
             this.tab10 = new System.Windows.Forms.TabPage();
             this.materialCard17 = new MaterialSkin.Controls.MaterialCard();
@@ -62,6 +61,9 @@ namespace WindowsFormsApp2
             this.materialMultiLineTextBox2 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
             this.materialButton6 = new MaterialSkin.Controls.MaterialButton();
             this.tab7 = new System.Windows.Forms.TabPage();
+            this.materialCard23 = new MaterialSkin.Controls.MaterialCard();
+            this.materialMultiLineTextBox23 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
+            this.materialButton23 = new MaterialSkin.Controls.MaterialButton();
             this.tab6 = new System.Windows.Forms.TabPage();
             this.tab4 = new System.Windows.Forms.TabPage();
             this.materialCard16 = new MaterialSkin.Controls.MaterialCard();
@@ -108,12 +110,11 @@ namespace WindowsFormsApp2
             this.materialMultiLineTextBox8 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
             this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
             this.tab1 = new System.Windows.Forms.TabPage();
-            this.webControl1 = new EO.WinForm.WebControl();
             this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
+            this.webControl2 = new EO.WinForm.WebControl();
+            this.webControl1 = new EO.WinForm.WebControl();
+            this.webView1 = new EO.WebBrowser.WebView();
             this.webView2 = new EO.WebBrowser.WebView();
-            this.materialCard23 = new MaterialSkin.Controls.MaterialCard();
-            this.materialMultiLineTextBox23 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
-            this.materialButton23 = new MaterialSkin.Controls.MaterialButton();
             this.tab10.SuspendLayout();
             this.materialCard17.SuspendLayout();
             this.materialCard9.SuspendLayout();
@@ -125,6 +126,8 @@ namespace WindowsFormsApp2
             this.materialCard18.SuspendLayout();
             this.materialCard5.SuspendLayout();
             this.tab7.SuspendLayout();
+            this.materialCard23.SuspendLayout();
+            this.tab6.SuspendLayout();
             this.tab4.SuspendLayout();
             this.materialCard16.SuspendLayout();
             this.materialCard15.SuspendLayout();
@@ -143,7 +146,6 @@ namespace WindowsFormsApp2
             this.materialCard2.SuspendLayout();
             this.tab1.SuspendLayout();
             this.materialTabControl1.SuspendLayout();
-            this.materialCard23.SuspendLayout();
             this.SuspendLayout();
             // 
             // imageList1
@@ -165,19 +167,12 @@ namespace WindowsFormsApp2
             this.imageList1.Images.SetKeyName(12, "Хвороби.png");
             this.imageList1.Images.SetKeyName(13, "Інфо");
             // 
-            // webView1
-            // 
-            this.webView1.InputMsgFilter = null;
-            this.webView1.ObjectForScripting = null;
-            this.webView1.Title = null;
-            this.webView1.Url = "http://firmagro.ua.xsph.ru/";
-            // 
             // tab11
             // 
             this.tab11.ImageKey = "Хвороби.png";
             this.tab11.Location = new System.Drawing.Point(4, 54);
             this.tab11.Name = "tab11";
-            this.tab11.Size = new System.Drawing.Size(992, 742);
+            this.tab11.Size = new System.Drawing.Size(1101, 742);
             this.tab11.TabIndex = 10;
             this.tab11.Text = "Хвороби";
             this.tab11.UseVisualStyleBackColor = true;
@@ -189,7 +184,7 @@ namespace WindowsFormsApp2
             this.tab10.ImageKey = "Діючи речовини.png";
             this.tab10.Location = new System.Drawing.Point(4, 54);
             this.tab10.Name = "tab10";
-            this.tab10.Size = new System.Drawing.Size(992, 742);
+            this.tab10.Size = new System.Drawing.Size(1101, 742);
             this.tab10.TabIndex = 9;
             this.tab10.Text = "Діючи речовини";
             this.tab10.UseVisualStyleBackColor = true;
@@ -201,7 +196,7 @@ namespace WindowsFormsApp2
             this.materialCard17.Controls.Add(this.materialButton17);
             this.materialCard17.Depth = 0;
             this.materialCard17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard17.Location = new System.Drawing.Point(613, 205);
+            this.materialCard17.Location = new System.Drawing.Point(738, 205);
             this.materialCard17.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard17.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard17.Name = "materialCard17";
@@ -253,7 +248,7 @@ namespace WindowsFormsApp2
             this.materialCard9.Controls.Add(this.materialButton9);
             this.materialCard9.Depth = 0;
             this.materialCard9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard9.Location = new System.Drawing.Point(28, 205);
+            this.materialCard9.Location = new System.Drawing.Point(94, 209);
             this.materialCard9.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard9.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard9.Name = "materialCard9";
@@ -303,7 +298,7 @@ namespace WindowsFormsApp2
             this.tab9.ImageKey = "Буряни.png";
             this.tab9.Location = new System.Drawing.Point(4, 54);
             this.tab9.Name = "tab9";
-            this.tab9.Size = new System.Drawing.Size(992, 742);
+            this.tab9.Size = new System.Drawing.Size(1101, 742);
             this.tab9.TabIndex = 8;
             this.tab9.Text = "Бур\'яни";
             this.tab9.UseVisualStyleBackColor = true;
@@ -319,7 +314,7 @@ namespace WindowsFormsApp2
             this.tab8.ImageKey = "Захист рослин.png";
             this.tab8.Location = new System.Drawing.Point(4, 54);
             this.tab8.Name = "tab8";
-            this.tab8.Size = new System.Drawing.Size(992, 742);
+            this.tab8.Size = new System.Drawing.Size(1101, 742);
             this.tab8.TabIndex = 7;
             this.tab8.Text = "Захист рослин";
             this.tab8.UseVisualStyleBackColor = true;
@@ -331,7 +326,7 @@ namespace WindowsFormsApp2
             this.materialCard22.Controls.Add(this.materialButton22);
             this.materialCard22.Depth = 0;
             this.materialCard22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard22.Location = new System.Drawing.Point(613, 385);
+            this.materialCard22.Location = new System.Drawing.Point(738, 385);
             this.materialCard22.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard22.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard22.Name = "materialCard22";
@@ -384,7 +379,7 @@ namespace WindowsFormsApp2
             this.materialCard21.Controls.Add(this.materialButton21);
             this.materialCard21.Depth = 0;
             this.materialCard21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard21.Location = new System.Drawing.Point(28, 385);
+            this.materialCard21.Location = new System.Drawing.Point(94, 385);
             this.materialCard21.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard21.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard21.Name = "materialCard21";
@@ -436,7 +431,7 @@ namespace WindowsFormsApp2
             this.materialCard20.Controls.Add(this.materialButton20);
             this.materialCard20.Depth = 0;
             this.materialCard20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard20.Location = new System.Drawing.Point(613, 205);
+            this.materialCard20.Location = new System.Drawing.Point(738, 205);
             this.materialCard20.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard20.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard20.Name = "materialCard20";
@@ -489,7 +484,7 @@ namespace WindowsFormsApp2
             this.materialCard19.Controls.Add(this.materialButton19);
             this.materialCard19.Depth = 0;
             this.materialCard19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard19.Location = new System.Drawing.Point(613, 34);
+            this.materialCard19.Location = new System.Drawing.Point(738, 34);
             this.materialCard19.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard19.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard19.Name = "materialCard19";
@@ -541,7 +536,7 @@ namespace WindowsFormsApp2
             this.materialCard18.Controls.Add(this.materialButton18);
             this.materialCard18.Depth = 0;
             this.materialCard18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard18.Location = new System.Drawing.Point(28, 205);
+            this.materialCard18.Location = new System.Drawing.Point(94, 209);
             this.materialCard18.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard18.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard18.Name = "materialCard18";
@@ -593,7 +588,7 @@ namespace WindowsFormsApp2
             this.materialCard5.Controls.Add(this.materialButton6);
             this.materialCard5.Depth = 0;
             this.materialCard5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard5.Location = new System.Drawing.Point(28, 34);
+            this.materialCard5.Location = new System.Drawing.Point(94, 38);
             this.materialCard5.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard5.Name = "materialCard5";
@@ -645,18 +640,71 @@ namespace WindowsFormsApp2
             this.tab7.ImageKey = "Шкідники.png";
             this.tab7.Location = new System.Drawing.Point(4, 54);
             this.tab7.Name = "tab7";
-            this.tab7.Size = new System.Drawing.Size(992, 742);
+            this.tab7.Size = new System.Drawing.Size(1101, 742);
             this.tab7.TabIndex = 6;
             this.tab7.Text = "Шкідники";
             this.tab7.ToolTipText = "sgsg";
             this.tab7.UseVisualStyleBackColor = true;
             // 
+            // materialCard23
+            // 
+            this.materialCard23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard23.Controls.Add(this.materialMultiLineTextBox23);
+            this.materialCard23.Controls.Add(this.materialButton23);
+            this.materialCard23.Depth = 0;
+            this.materialCard23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard23.Location = new System.Drawing.Point(94, 38);
+            this.materialCard23.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard23.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard23.Name = "materialCard23";
+            this.materialCard23.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard23.Size = new System.Drawing.Size(270, 118);
+            this.materialCard23.TabIndex = 13;
+            // 
+            // materialMultiLineTextBox23
+            // 
+            this.materialMultiLineTextBox23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialMultiLineTextBox23.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.materialMultiLineTextBox23.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.materialMultiLineTextBox23.Depth = 0;
+            this.materialMultiLineTextBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialMultiLineTextBox23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialMultiLineTextBox23.Hint = "";
+            this.materialMultiLineTextBox23.Location = new System.Drawing.Point(5, 60);
+            this.materialMultiLineTextBox23.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialMultiLineTextBox23.Name = "materialMultiLineTextBox23";
+            this.materialMultiLineTextBox23.ReadOnly = true;
+            this.materialMultiLineTextBox23.Size = new System.Drawing.Size(151, 58);
+            this.materialMultiLineTextBox23.TabIndex = 11;
+            this.materialMultiLineTextBox23.Text = "Всі шкідники";
+            // 
+            // materialButton23
+            // 
+            this.materialButton23.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton23.Depth = 0;
+            this.materialButton23.DrawShadows = true;
+            this.materialButton23.HighEmphasis = true;
+            this.materialButton23.Icon = null;
+            this.materialButton23.Location = new System.Drawing.Point(153, 86);
+            this.materialButton23.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton23.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton23.Name = "materialButton23";
+            this.materialButton23.Size = new System.Drawing.Size(126, 36);
+            this.materialButton23.TabIndex = 0;
+            this.materialButton23.Text = "Переглянути";
+            this.materialButton23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.materialButton23.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton23.UseAccentColor = false;
+            this.materialButton23.UseVisualStyleBackColor = true;
+            this.materialButton23.Click += new System.EventHandler(this.materialButton23_Click);
+            // 
             // tab6
             // 
+            this.tab6.Controls.Add(this.webControl2);
             this.tab6.ImageKey = "Штат.png";
             this.tab6.Location = new System.Drawing.Point(4, 54);
             this.tab6.Name = "tab6";
-            this.tab6.Size = new System.Drawing.Size(992, 742);
+            this.tab6.Size = new System.Drawing.Size(1101, 742);
             this.tab6.TabIndex = 5;
             this.tab6.Text = "Штат";
             this.tab6.UseVisualStyleBackColor = true;
@@ -673,7 +721,7 @@ namespace WindowsFormsApp2
             this.tab4.ImageKey = "Конвертер.png";
             this.tab4.Location = new System.Drawing.Point(4, 54);
             this.tab4.Name = "tab4";
-            this.tab4.Size = new System.Drawing.Size(992, 742);
+            this.tab4.Size = new System.Drawing.Size(1101, 742);
             this.tab4.TabIndex = 3;
             this.tab4.Text = "Конвертер";
             this.tab4.UseVisualStyleBackColor = true;
@@ -685,7 +733,7 @@ namespace WindowsFormsApp2
             this.materialCard16.Controls.Add(this.materialButton16);
             this.materialCard16.Depth = 0;
             this.materialCard16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard16.Location = new System.Drawing.Point(613, 385);
+            this.materialCard16.Location = new System.Drawing.Point(738, 385);
             this.materialCard16.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard16.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard16.Name = "materialCard16";
@@ -736,7 +784,7 @@ namespace WindowsFormsApp2
             this.materialCard15.Controls.Add(this.materialButton15);
             this.materialCard15.Depth = 0;
             this.materialCard15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard15.Location = new System.Drawing.Point(613, 205);
+            this.materialCard15.Location = new System.Drawing.Point(738, 205);
             this.materialCard15.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard15.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard15.Name = "materialCard15";
@@ -787,7 +835,7 @@ namespace WindowsFormsApp2
             this.materialCard14.Controls.Add(this.materialButton14);
             this.materialCard14.Depth = 0;
             this.materialCard14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard14.Location = new System.Drawing.Point(330, 555);
+            this.materialCard14.Location = new System.Drawing.Point(424, 558);
             this.materialCard14.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard14.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard14.Name = "materialCard14";
@@ -838,7 +886,7 @@ namespace WindowsFormsApp2
             this.materialCard13.Controls.Add(this.materialButton13);
             this.materialCard13.Depth = 0;
             this.materialCard13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard13.Location = new System.Drawing.Point(613, 34);
+            this.materialCard13.Location = new System.Drawing.Point(738, 34);
             this.materialCard13.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard13.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard13.Name = "materialCard13";
@@ -889,7 +937,7 @@ namespace WindowsFormsApp2
             this.materialCard12.Controls.Add(this.materialButton12);
             this.materialCard12.Depth = 0;
             this.materialCard12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard12.Location = new System.Drawing.Point(28, 34);
+            this.materialCard12.Location = new System.Drawing.Point(94, 38);
             this.materialCard12.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard12.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard12.Name = "materialCard12";
@@ -940,7 +988,7 @@ namespace WindowsFormsApp2
             this.materialCard11.Controls.Add(this.materialButton11);
             this.materialCard11.Depth = 0;
             this.materialCard11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard11.Location = new System.Drawing.Point(28, 385);
+            this.materialCard11.Location = new System.Drawing.Point(94, 385);
             this.materialCard11.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard11.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard11.Name = "materialCard11";
@@ -991,7 +1039,7 @@ namespace WindowsFormsApp2
             this.materialCard10.Controls.Add(this.materialButton10);
             this.materialCard10.Depth = 0;
             this.materialCard10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard10.Location = new System.Drawing.Point(28, 205);
+            this.materialCard10.Location = new System.Drawing.Point(94, 209);
             this.materialCard10.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard10.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard10.Name = "materialCard10";
@@ -1048,7 +1096,7 @@ namespace WindowsFormsApp2
             this.tab2.Location = new System.Drawing.Point(4, 54);
             this.tab2.Name = "tab2";
             this.tab2.Padding = new System.Windows.Forms.Padding(3);
-            this.tab2.Size = new System.Drawing.Size(992, 742);
+            this.tab2.Size = new System.Drawing.Size(1101, 742);
             this.tab2.TabIndex = 1;
             this.tab2.Text = "Матеріали";
             // 
@@ -1059,7 +1107,7 @@ namespace WindowsFormsApp2
             this.materialCard8.Controls.Add(this.materialButton8);
             this.materialCard8.Depth = 0;
             this.materialCard8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard8.Location = new System.Drawing.Point(28, 385);
+            this.materialCard8.Location = new System.Drawing.Point(94, 385);
             this.materialCard8.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard8.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard8.Name = "materialCard8";
@@ -1110,7 +1158,7 @@ namespace WindowsFormsApp2
             this.materialCard7.Controls.Add(this.materialButton4);
             this.materialCard7.Depth = 0;
             this.materialCard7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard7.Location = new System.Drawing.Point(330, 555);
+            this.materialCard7.Location = new System.Drawing.Point(424, 558);
             this.materialCard7.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard7.Name = "materialCard7";
@@ -1161,7 +1209,7 @@ namespace WindowsFormsApp2
             this.materialCard1.Controls.Add(this.materialButton1);
             this.materialCard1.Depth = 0;
             this.materialCard1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard1.Location = new System.Drawing.Point(28, 34);
+            this.materialCard1.Location = new System.Drawing.Point(94, 38);
             this.materialCard1.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard1.Name = "materialCard1";
@@ -1214,7 +1262,7 @@ namespace WindowsFormsApp2
             this.materialCard6.Controls.Add(this.materialButton7);
             this.materialCard6.Depth = 0;
             this.materialCard6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard6.Location = new System.Drawing.Point(613, 385);
+            this.materialCard6.Location = new System.Drawing.Point(737, 385);
             this.materialCard6.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard6.Name = "materialCard6";
@@ -1265,7 +1313,7 @@ namespace WindowsFormsApp2
             this.materialCard4.Controls.Add(this.materialButton5);
             this.materialCard4.Depth = 0;
             this.materialCard4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard4.Location = new System.Drawing.Point(613, 34);
+            this.materialCard4.Location = new System.Drawing.Point(735, 34);
             this.materialCard4.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard4.Name = "materialCard4";
@@ -1316,7 +1364,7 @@ namespace WindowsFormsApp2
             this.materialCard3.Controls.Add(this.materialButton3);
             this.materialCard3.Depth = 0;
             this.materialCard3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard3.Location = new System.Drawing.Point(613, 205);
+            this.materialCard3.Location = new System.Drawing.Point(735, 209);
             this.materialCard3.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard3.Name = "materialCard3";
@@ -1367,7 +1415,7 @@ namespace WindowsFormsApp2
             this.materialCard2.Controls.Add(this.materialButton2);
             this.materialCard2.Depth = 0;
             this.materialCard2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard2.Location = new System.Drawing.Point(28, 205);
+            this.materialCard2.Location = new System.Drawing.Point(94, 209);
             this.materialCard2.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard2.Name = "materialCard2";
@@ -1423,22 +1471,11 @@ namespace WindowsFormsApp2
             this.tab1.Location = new System.Drawing.Point(4, 54);
             this.tab1.Name = "tab1";
             this.tab1.Padding = new System.Windows.Forms.Padding(3);
-            this.tab1.Size = new System.Drawing.Size(992, 742);
+            this.tab1.Size = new System.Drawing.Size(1101, 742);
             this.tab1.TabIndex = 0;
             this.tab1.Text = "Головна";
             this.tab1.UseVisualStyleBackColor = true;
             this.tab1.Click += new System.EventHandler(this.tab1_Click);
-            // 
-            // webControl1
-            // 
-            this.webControl1.BackColor = System.Drawing.Color.White;
-            this.webControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.webControl1.Location = new System.Drawing.Point(3, 3);
-            this.webControl1.Name = "webControl1";
-            this.webControl1.Size = new System.Drawing.Size(986, 736);
-            this.webControl1.TabIndex = 0;
-            this.webControl1.Text = "webControl1";
-            this.webControl1.WebView = this.webView1;
             // 
             // materialTabControl1
             // 
@@ -1464,74 +1501,49 @@ namespace WindowsFormsApp2
             this.materialTabControl1.Name = "materialTabControl1";
             this.materialTabControl1.SelectedIndex = 0;
             this.materialTabControl1.ShowToolTips = true;
-            this.materialTabControl1.Size = new System.Drawing.Size(1000, 800);
+            this.materialTabControl1.Size = new System.Drawing.Size(1109, 800);
             this.materialTabControl1.TabIndex = 1;
+            // 
+            // webControl2
+            // 
+            this.webControl2.BackColor = System.Drawing.Color.White;
+            this.webControl2.Location = new System.Drawing.Point(-4, -5);
+            this.webControl2.Name = "webControl2";
+            this.webControl2.Size = new System.Drawing.Size(1049, 739);
+            this.webControl2.TabIndex = 0;
+            this.webControl2.Text = "webControl2";
+            this.webControl2.WebView = this.webView2;
+            // 
+            // webControl1
+            // 
+            this.webControl1.BackColor = System.Drawing.Color.White;
+            this.webControl1.Location = new System.Drawing.Point(0, 0);
+            this.webControl1.Name = "webControl1";
+            this.webControl1.Size = new System.Drawing.Size(1093, 742);
+            this.webControl1.TabIndex = 0;
+            this.webControl1.Text = "webControl1";
+            this.webControl1.WebView = this.webView1;
+            // 
+            // webView1
+            // 
+            this.webView1.InputMsgFilter = null;
+            this.webView1.ObjectForScripting = null;
+            this.webView1.Title = null;
+            this.webView1.Url = "http://firmagro.ua.xsph.ru/";
             // 
             // webView2
             // 
             this.webView2.InputMsgFilter = null;
             this.webView2.ObjectForScripting = null;
             this.webView2.Title = null;
-            this.webView2.Url = "https://sites.google.com/view/documentationfirm/%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0" +
-    "%B0%D1%8F-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0?authuser=1";
-            // 
-            // materialCard23
-            // 
-            this.materialCard23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard23.Controls.Add(this.materialMultiLineTextBox23);
-            this.materialCard23.Controls.Add(this.materialButton23);
-            this.materialCard23.Depth = 0;
-            this.materialCard23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard23.Location = new System.Drawing.Point(28, 34);
-            this.materialCard23.Margin = new System.Windows.Forms.Padding(14);
-            this.materialCard23.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard23.Name = "materialCard23";
-            this.materialCard23.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard23.Size = new System.Drawing.Size(270, 118);
-            this.materialCard23.TabIndex = 13;
-            // 
-            // materialMultiLineTextBox23
-            // 
-            this.materialMultiLineTextBox23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialMultiLineTextBox23.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialMultiLineTextBox23.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.materialMultiLineTextBox23.Depth = 0;
-            this.materialMultiLineTextBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialMultiLineTextBox23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialMultiLineTextBox23.Hint = "";
-            this.materialMultiLineTextBox23.Location = new System.Drawing.Point(5, 60);
-            this.materialMultiLineTextBox23.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialMultiLineTextBox23.Name = "materialMultiLineTextBox23";
-            this.materialMultiLineTextBox23.ReadOnly = true;
-            this.materialMultiLineTextBox23.Size = new System.Drawing.Size(151, 58);
-            this.materialMultiLineTextBox23.TabIndex = 11;
-            this.materialMultiLineTextBox23.Text = "Всі шкідники";
-            // 
-            // materialButton23
-            // 
-            this.materialButton23.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton23.Depth = 0;
-            this.materialButton23.DrawShadows = true;
-            this.materialButton23.HighEmphasis = true;
-            this.materialButton23.Icon = null;
-            this.materialButton23.Location = new System.Drawing.Point(153, 86);
-            this.materialButton23.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton23.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton23.Name = "materialButton23";
-            this.materialButton23.Size = new System.Drawing.Size(126, 36);
-            this.materialButton23.TabIndex = 0;
-            this.materialButton23.Text = "Переглянути";
-            this.materialButton23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.materialButton23.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton23.UseAccentColor = false;
-            this.materialButton23.UseVisualStyleBackColor = true;
-            this.materialButton23.Click += new System.EventHandler(this.materialButton23_Click);
+            this.webView2.UnloadDelay = 0;
+            this.webView2.Url = "https://www.appsheet.com/start/e6ea9ee4-20d7-4399-8d7b-350f39f352b2";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1000, 800);
+            this.ClientSize = new System.Drawing.Size(1109, 800);
             this.Controls.Add(this.materialTabControl1);
             this.DrawerBackgroundWithAccent = true;
             this.DrawerShowIconsWhenHidden = true;
@@ -1560,6 +1572,9 @@ namespace WindowsFormsApp2
             this.materialCard5.ResumeLayout(false);
             this.materialCard5.PerformLayout();
             this.tab7.ResumeLayout(false);
+            this.materialCard23.ResumeLayout(false);
+            this.materialCard23.PerformLayout();
+            this.tab6.ResumeLayout(false);
             this.tab4.ResumeLayout(false);
             this.materialCard16.ResumeLayout(false);
             this.materialCard16.PerformLayout();
@@ -1592,15 +1607,12 @@ namespace WindowsFormsApp2
             this.materialCard2.PerformLayout();
             this.tab1.ResumeLayout(false);
             this.materialTabControl1.ResumeLayout(false);
-            this.materialCard23.ResumeLayout(false);
-            this.materialCard23.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
         private System.Windows.Forms.ImageList imageList1;
-        private EO.WebBrowser.WebView webView1;
         private System.Windows.Forms.TabPage tab11;
         private System.Windows.Forms.TabPage tab10;
         private System.Windows.Forms.TabPage tab9;
@@ -1652,7 +1664,6 @@ namespace WindowsFormsApp2
         private MaterialSkin.Controls.MaterialMultiLineTextBox materialMultiLineTextBox8;
         private MaterialSkin.Controls.MaterialButton materialButton2;
         private System.Windows.Forms.TabPage tab1;
-        private EO.WinForm.WebControl webControl1;
         public MaterialSkin.Controls.MaterialTabControl materialTabControl1;
         private MaterialSkin.Controls.MaterialCard materialCard17;
         private MaterialSkin.Controls.MaterialMultiLineTextBox materialMultiLineTextBox17;
@@ -1678,10 +1689,13 @@ namespace WindowsFormsApp2
         private MaterialSkin.Controls.MaterialCard materialCard5;
         private MaterialSkin.Controls.MaterialMultiLineTextBox materialMultiLineTextBox2;
         private MaterialSkin.Controls.MaterialButton materialButton6;
-        private EO.WebBrowser.WebView webView2;
         private MaterialSkin.Controls.MaterialCard materialCard23;
         private MaterialSkin.Controls.MaterialMultiLineTextBox materialMultiLineTextBox23;
         private MaterialSkin.Controls.MaterialButton materialButton23;
+        private EO.WinForm.WebControl webControl2;
+        private EO.WinForm.WebControl webControl1;
+        private EO.WebBrowser.WebView webView1;
+        private EO.WebBrowser.WebView webView2;
     }
 }
 
