@@ -99,12 +99,6 @@ namespace WindowsFormsApp2
             Process.Start(@"");
         }
 
-      
-        private void Шкідники(object sender, EventArgs e)
-        {
-            Process.Start(@"");
-        }
-
         private void Технології_від_компаній(object sender, EventArgs e)
         {
             Process.Start(@"");

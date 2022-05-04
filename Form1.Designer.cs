@@ -61,9 +61,6 @@ namespace WindowsFormsApp2
             this.materialMultiLineTextBox2 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
             this.materialButton6 = new MaterialSkin.Controls.MaterialButton();
             this.tab7 = new System.Windows.Forms.TabPage();
-            this.materialCard23 = new MaterialSkin.Controls.MaterialCard();
-            this.materialMultiLineTextBox23 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
-            this.materialButton23 = new MaterialSkin.Controls.MaterialButton();
             this.tab6 = new System.Windows.Forms.TabPage();
             this.webControl2 = new EO.WinForm.WebControl();
             this.webView2 = new EO.WebBrowser.WebView();
@@ -115,6 +112,8 @@ namespace WindowsFormsApp2
             this.webControl1 = new EO.WinForm.WebControl();
             this.webView1 = new EO.WebBrowser.WebView();
             this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
+            this.webControl3 = new EO.WinForm.WebControl();
+            this.webView3 = new EO.WebBrowser.WebView();
             this.tab10.SuspendLayout();
             this.materialCard17.SuspendLayout();
             this.materialCard9.SuspendLayout();
@@ -126,7 +125,6 @@ namespace WindowsFormsApp2
             this.materialCard18.SuspendLayout();
             this.materialCard5.SuspendLayout();
             this.tab7.SuspendLayout();
-            this.materialCard23.SuspendLayout();
             this.tab6.SuspendLayout();
             this.tab4.SuspendLayout();
             this.materialCard16.SuspendLayout();
@@ -633,7 +631,7 @@ namespace WindowsFormsApp2
             // 
             // tab7
             // 
-            this.tab7.Controls.Add(this.materialCard23);
+            this.tab7.Controls.Add(this.webControl3);
             this.tab7.ImageKey = "Шкідники.png";
             this.tab7.Location = new System.Drawing.Point(4, 54);
             this.tab7.Name = "tab7";
@@ -642,58 +640,6 @@ namespace WindowsFormsApp2
             this.tab7.Text = "Шкідники";
             this.tab7.ToolTipText = "sgsg";
             this.tab7.UseVisualStyleBackColor = true;
-            // 
-            // materialCard23
-            // 
-            this.materialCard23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard23.Controls.Add(this.materialMultiLineTextBox23);
-            this.materialCard23.Controls.Add(this.materialButton23);
-            this.materialCard23.Depth = 0;
-            this.materialCard23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard23.Location = new System.Drawing.Point(94, 38);
-            this.materialCard23.Margin = new System.Windows.Forms.Padding(14);
-            this.materialCard23.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard23.Name = "materialCard23";
-            this.materialCard23.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard23.Size = new System.Drawing.Size(270, 118);
-            this.materialCard23.TabIndex = 13;
-            // 
-            // materialMultiLineTextBox23
-            // 
-            this.materialMultiLineTextBox23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialMultiLineTextBox23.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialMultiLineTextBox23.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.materialMultiLineTextBox23.Depth = 0;
-            this.materialMultiLineTextBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialMultiLineTextBox23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialMultiLineTextBox23.Hint = "";
-            this.materialMultiLineTextBox23.Location = new System.Drawing.Point(5, 60);
-            this.materialMultiLineTextBox23.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialMultiLineTextBox23.Name = "materialMultiLineTextBox23";
-            this.materialMultiLineTextBox23.ReadOnly = true;
-            this.materialMultiLineTextBox23.Size = new System.Drawing.Size(151, 58);
-            this.materialMultiLineTextBox23.TabIndex = 11;
-            this.materialMultiLineTextBox23.Text = "Всі шкідники";
-            // 
-            // materialButton23
-            // 
-            this.materialButton23.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton23.Depth = 0;
-            this.materialButton23.DrawShadows = true;
-            this.materialButton23.HighEmphasis = true;
-            this.materialButton23.Icon = null;
-            this.materialButton23.Location = new System.Drawing.Point(153, 86);
-            this.materialButton23.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton23.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton23.Name = "materialButton23";
-            this.materialButton23.Size = new System.Drawing.Size(126, 36);
-            this.materialButton23.TabIndex = 0;
-            this.materialButton23.Text = "Переглянути";
-            this.materialButton23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.materialButton23.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton23.UseAccentColor = false;
-            this.materialButton23.UseVisualStyleBackColor = true;
-            this.materialButton23.Click += new System.EventHandler(this.Шкідники);
             // 
             // tab6
             // 
@@ -722,7 +668,7 @@ namespace WindowsFormsApp2
             this.webView2.ObjectForScripting = null;
             this.webView2.Title = null;
             this.webView2.UnloadDelay = 0;
-            this.webView2.Url = "https://www.appsheet.com/start/e6ea9ee4-20d7-4399-8d7b-350f39f352b2";
+            this.webView2.Url = resources.GetString("webView2.Url");
             // 
             // tab4
             // 
@@ -1534,6 +1480,23 @@ namespace WindowsFormsApp2
             this.materialTabControl1.Size = new System.Drawing.Size(1109, 800);
             this.materialTabControl1.TabIndex = 1;
             // 
+            // webControl3
+            // 
+            this.webControl3.BackColor = System.Drawing.Color.White;
+            this.webControl3.Location = new System.Drawing.Point(0, 0);
+            this.webControl3.Name = "webControl3";
+            this.webControl3.Size = new System.Drawing.Size(1048, 739);
+            this.webControl3.TabIndex = 0;
+            this.webControl3.Text = "webControl3";
+            this.webControl3.WebView = this.webView3;
+            // 
+            // webView3
+            // 
+            this.webView3.InputMsgFilter = null;
+            this.webView3.ObjectForScripting = null;
+            this.webView3.Title = null;
+            this.webView3.Url = resources.GetString("webView3.Url");
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1567,8 +1530,6 @@ namespace WindowsFormsApp2
             this.materialCard5.ResumeLayout(false);
             this.materialCard5.PerformLayout();
             this.tab7.ResumeLayout(false);
-            this.materialCard23.ResumeLayout(false);
-            this.materialCard23.PerformLayout();
             this.tab6.ResumeLayout(false);
             this.tab4.ResumeLayout(false);
             this.materialCard16.ResumeLayout(false);
@@ -1684,13 +1645,12 @@ namespace WindowsFormsApp2
         private MaterialSkin.Controls.MaterialCard materialCard5;
         private MaterialSkin.Controls.MaterialMultiLineTextBox materialMultiLineTextBox2;
         private MaterialSkin.Controls.MaterialButton materialButton6;
-        private MaterialSkin.Controls.MaterialCard materialCard23;
-        private MaterialSkin.Controls.MaterialMultiLineTextBox materialMultiLineTextBox23;
-        private MaterialSkin.Controls.MaterialButton materialButton23;
         private EO.WinForm.WebControl webControl2;
         private EO.WinForm.WebControl webControl1;
         private EO.WebBrowser.WebView webView1;
         private EO.WebBrowser.WebView webView2;
+        private EO.WinForm.WebControl webControl3;
+        private EO.WebBrowser.WebView webView3;
     }
 }
 
