@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
-
+using Селецька;
 
 namespace WindowsFormsApp2
 {
@@ -31,7 +31,8 @@ namespace WindowsFormsApp2
 
         private void Карта_елеваторів(object sender, EventArgs e)
         {
-            Process.Start(@"");
+            Перегляд f  = new Перегляд ();
+            f.ShowDialog();
 
         }
         private void Ціни_на_пальне(object sender, EventArgs e)
