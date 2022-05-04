@@ -676,6 +676,12 @@
         Cw==
 </value>
   </data>
+  <metadata name="webView4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>448, 17</value>
+  </metadata>
+  <data name="webView4.Url" xml:space="preserve">
+    <value>https://www.appsheet.com/start/e6ea9ee4-20d7-4399-8d7b-350f39f352b2#appName=NewApp-6279151&amp;group=%5B%5D&amp;sort=%5B%7B%22Column%22%3A%22%D0%9A%D0%BE%D0%B4%22%2C%22Order%22%3A%22Ascending%22%7D%2C%7B%22Column%22%3A%22%D0%9D%D0%B0%D0%B7%D0%B2%D0%B0%22%2C%22Order%22%3A%22Ascending%22%7D%5D&amp;table=%D0%A5%D0%B2%D0%BE%D1%80%D0%BE%D0%B1%D0%B8&amp;view=%D0%A5%D0%B2%D0%BE%D1%80%D0%BE%D0%B1%D0%B8</value>
+  </data>
   <metadata name="materialMultiLineTextBox17.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>

@@ -114,6 +114,9 @@ namespace WindowsFormsApp2
             this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
             this.webControl3 = new EO.WinForm.WebControl();
             this.webView3 = new EO.WebBrowser.WebView();
+            this.webControl4 = new EO.WinForm.WebControl();
+            this.webView4 = new EO.WebBrowser.WebView();
+            this.tab11.SuspendLayout();
             this.tab10.SuspendLayout();
             this.materialCard17.SuspendLayout();
             this.materialCard9.SuspendLayout();
@@ -167,6 +170,7 @@ namespace WindowsFormsApp2
             // 
             // tab11
             // 
+            this.tab11.Controls.Add(this.webControl4);
             this.tab11.ImageKey = "Хвороби.png";
             this.tab11.Location = new System.Drawing.Point(4, 54);
             this.tab11.Name = "tab11";
@@ -655,9 +659,9 @@ namespace WindowsFormsApp2
             // webControl2
             // 
             this.webControl2.BackColor = System.Drawing.Color.White;
-            this.webControl2.Location = new System.Drawing.Point(-4, -5);
+            this.webControl2.Location = new System.Drawing.Point(-4, 0);
             this.webControl2.Name = "webControl2";
-            this.webControl2.Size = new System.Drawing.Size(1049, 739);
+            this.webControl2.Size = new System.Drawing.Size(1049, 734);
             this.webControl2.TabIndex = 0;
             this.webControl2.Text = "webControl2";
             this.webControl2.WebView = this.webView2;
@@ -1497,6 +1501,24 @@ namespace WindowsFormsApp2
             this.webView3.Title = null;
             this.webView3.Url = resources.GetString("webView3.Url");
             // 
+            // webControl4
+            // 
+            this.webControl4.BackColor = System.Drawing.Color.White;
+            this.webControl4.Location = new System.Drawing.Point(-4, 0);
+            this.webControl4.Name = "webControl4";
+            this.webControl4.Size = new System.Drawing.Size(1048, 739);
+            this.webControl4.TabIndex = 0;
+            this.webControl4.Text = "webControl4";
+            this.webControl4.WebView = this.webView4;
+            // 
+            // webView4
+            // 
+            this.webView4.InputMsgFilter = null;
+            this.webView4.ObjectForScripting = null;
+            this.webView4.Title = null;
+            this.webView4.UnloadDelay = 0;
+            this.webView4.Url = resources.GetString("webView4.Url");
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1511,6 +1533,7 @@ namespace WindowsFormsApp2
             this.Name = "Form1";
             this.Sizable = false;
             this.Text = "Селецька";
+            this.tab11.ResumeLayout(false);
             this.tab10.ResumeLayout(false);
             this.materialCard17.ResumeLayout(false);
             this.materialCard17.PerformLayout();
@@ -1651,6 +1674,8 @@ namespace WindowsFormsApp2
         private EO.WebBrowser.WebView webView2;
         private EO.WinForm.WebControl webControl3;
         private EO.WebBrowser.WebView webView3;
+        private EO.WinForm.WebControl webControl4;
+        private EO.WebBrowser.WebView webView4;
     }
 }
 
