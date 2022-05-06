@@ -104,5 +104,11 @@ namespace WindowsFormsApp2
         {
             Process.Start(@"");
         }
+
+        private void materialButton12_Click(object sender, EventArgs e)
+        {
+            Тиску f = new Тиску();
+            f.ShowDialog();
+        }
     }
 }

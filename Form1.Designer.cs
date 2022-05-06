@@ -33,6 +33,8 @@ namespace WindowsFormsApp2
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.tab11 = new System.Windows.Forms.TabPage();
+            this.webControl4 = new EO.WinForm.WebControl();
+            this.webView4 = new EO.WebBrowser.WebView();
             this.tab10 = new System.Windows.Forms.TabPage();
             this.materialCard17 = new MaterialSkin.Controls.MaterialCard();
             this.materialMultiLineTextBox17 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
@@ -61,6 +63,8 @@ namespace WindowsFormsApp2
             this.materialMultiLineTextBox2 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
             this.materialButton6 = new MaterialSkin.Controls.MaterialButton();
             this.tab7 = new System.Windows.Forms.TabPage();
+            this.webControl3 = new EO.WinForm.WebControl();
+            this.webView3 = new EO.WebBrowser.WebView();
             this.tab6 = new System.Windows.Forms.TabPage();
             this.webControl2 = new EO.WinForm.WebControl();
             this.webView2 = new EO.WebBrowser.WebView();
@@ -112,10 +116,6 @@ namespace WindowsFormsApp2
             this.webControl1 = new EO.WinForm.WebControl();
             this.webView1 = new EO.WebBrowser.WebView();
             this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
-            this.webControl3 = new EO.WinForm.WebControl();
-            this.webView3 = new EO.WebBrowser.WebView();
-            this.webControl4 = new EO.WinForm.WebControl();
-            this.webView4 = new EO.WebBrowser.WebView();
             this.tab11.SuspendLayout();
             this.tab10.SuspendLayout();
             this.materialCard17.SuspendLayout();
@@ -178,6 +178,24 @@ namespace WindowsFormsApp2
             this.tab11.TabIndex = 10;
             this.tab11.Text = "Хвороби";
             this.tab11.UseVisualStyleBackColor = true;
+            // 
+            // webControl4
+            // 
+            this.webControl4.BackColor = System.Drawing.Color.White;
+            this.webControl4.Location = new System.Drawing.Point(-4, 0);
+            this.webControl4.Name = "webControl4";
+            this.webControl4.Size = new System.Drawing.Size(1048, 739);
+            this.webControl4.TabIndex = 0;
+            this.webControl4.Text = "webControl4";
+            this.webControl4.WebView = this.webView4;
+            // 
+            // webView4
+            // 
+            this.webView4.InputMsgFilter = null;
+            this.webView4.ObjectForScripting = null;
+            this.webView4.Title = null;
+            this.webView4.UnloadDelay = 0;
+            this.webView4.Url = resources.GetString("webView4.Url");
             // 
             // tab10
             // 
@@ -645,6 +663,23 @@ namespace WindowsFormsApp2
             this.tab7.ToolTipText = "sgsg";
             this.tab7.UseVisualStyleBackColor = true;
             // 
+            // webControl3
+            // 
+            this.webControl3.BackColor = System.Drawing.Color.White;
+            this.webControl3.Location = new System.Drawing.Point(0, 0);
+            this.webControl3.Name = "webControl3";
+            this.webControl3.Size = new System.Drawing.Size(1048, 739);
+            this.webControl3.TabIndex = 0;
+            this.webControl3.Text = "webControl3";
+            this.webControl3.WebView = this.webView3;
+            // 
+            // webView3
+            // 
+            this.webView3.InputMsgFilter = null;
+            this.webView3.ObjectForScripting = null;
+            this.webView3.Title = null;
+            this.webView3.Url = resources.GetString("webView3.Url");
+            // 
             // tab6
             // 
             this.tab6.Controls.Add(this.webControl2);
@@ -945,6 +980,7 @@ namespace WindowsFormsApp2
             this.materialButton12.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton12.UseAccentColor = false;
             this.materialButton12.UseVisualStyleBackColor = true;
+            this.materialButton12.Click += new System.EventHandler(this.materialButton12_Click);
             // 
             // materialCard11
             // 
@@ -1483,41 +1519,6 @@ namespace WindowsFormsApp2
             this.materialTabControl1.ShowToolTips = true;
             this.materialTabControl1.Size = new System.Drawing.Size(1109, 800);
             this.materialTabControl1.TabIndex = 1;
-            // 
-            // webControl3
-            // 
-            this.webControl3.BackColor = System.Drawing.Color.White;
-            this.webControl3.Location = new System.Drawing.Point(0, 0);
-            this.webControl3.Name = "webControl3";
-            this.webControl3.Size = new System.Drawing.Size(1048, 739);
-            this.webControl3.TabIndex = 0;
-            this.webControl3.Text = "webControl3";
-            this.webControl3.WebView = this.webView3;
-            // 
-            // webView3
-            // 
-            this.webView3.InputMsgFilter = null;
-            this.webView3.ObjectForScripting = null;
-            this.webView3.Title = null;
-            this.webView3.Url = resources.GetString("webView3.Url");
-            // 
-            // webControl4
-            // 
-            this.webControl4.BackColor = System.Drawing.Color.White;
-            this.webControl4.Location = new System.Drawing.Point(-4, 0);
-            this.webControl4.Name = "webControl4";
-            this.webControl4.Size = new System.Drawing.Size(1048, 739);
-            this.webControl4.TabIndex = 0;
-            this.webControl4.Text = "webControl4";
-            this.webControl4.WebView = this.webView4;
-            // 
-            // webView4
-            // 
-            this.webView4.InputMsgFilter = null;
-            this.webView4.ObjectForScripting = null;
-            this.webView4.Title = null;
-            this.webView4.UnloadDelay = 0;
-            this.webView4.Url = resources.GetString("webView4.Url");
             // 
             // Form1
             // 
