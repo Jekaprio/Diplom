@@ -776,6 +776,7 @@ namespace WindowsFormsApp2
             this.materialButton16.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton16.UseAccentColor = false;
             this.materialButton16.UseVisualStyleBackColor = true;
+            this.materialButton16.Click += new System.EventHandler(this.materialButton16_Click);
             // 
             // materialCard15
             // 
@@ -827,6 +828,7 @@ namespace WindowsFormsApp2
             this.materialButton15.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton15.UseAccentColor = false;
             this.materialButton15.UseVisualStyleBackColor = true;
+            this.materialButton15.Click += new System.EventHandler(this.materialButton15_Click);
             // 
             // materialCard14
             // 
@@ -878,6 +880,7 @@ namespace WindowsFormsApp2
             this.materialButton14.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton14.UseAccentColor = false;
             this.materialButton14.UseVisualStyleBackColor = true;
+            this.materialButton14.Click += new System.EventHandler(this.materialButton14_Click);
             // 
             // materialCard13
             // 
@@ -929,6 +932,7 @@ namespace WindowsFormsApp2
             this.materialButton13.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton13.UseAccentColor = false;
             this.materialButton13.UseVisualStyleBackColor = true;
+            this.materialButton13.Click += new System.EventHandler(this.materialButton13_Click);
             // 
             // materialCard12
             // 
@@ -1032,6 +1036,7 @@ namespace WindowsFormsApp2
             this.materialButton11.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton11.UseAccentColor = false;
             this.materialButton11.UseVisualStyleBackColor = true;
+            this.materialButton11.Click += new System.EventHandler(this.materialButton11_Click);
             // 
             // materialCard10
             // 
@@ -1083,6 +1088,7 @@ namespace WindowsFormsApp2
             this.materialButton10.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton10.UseAccentColor = false;
             this.materialButton10.UseVisualStyleBackColor = true;
+            this.materialButton10.Click += new System.EventHandler(this.materialButton10_Click);
             // 
             // tab2
             // 
@@ -1496,6 +1502,9 @@ namespace WindowsFormsApp2
             // materialTabControl1
             // 
             this.materialTabControl1.AccessibleRole = System.Windows.Forms.AccessibleRole.Sound;
+            this.materialTabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.materialTabControl1.Controls.Add(this.tab1);
             this.materialTabControl1.Controls.Add(this.tab2);
             this.materialTabControl1.Controls.Add(this.tab4);
@@ -1506,7 +1515,6 @@ namespace WindowsFormsApp2
             this.materialTabControl1.Controls.Add(this.tab10);
             this.materialTabControl1.Controls.Add(this.tab11);
             this.materialTabControl1.Depth = 0;
-            this.materialTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.materialTabControl1.HotTrack = true;
             this.materialTabControl1.ImageList = this.imageList1;
             this.materialTabControl1.ImeMode = System.Windows.Forms.ImeMode.NoControl;

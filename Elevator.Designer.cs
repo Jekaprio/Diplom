@@ -36,8 +36,8 @@ namespace Селецька
             // 
             // webControl1
             // 
-            this.webControl1.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(this.webControl1, "webControl1");
+            this.webControl1.BackColor = System.Drawing.Color.White;
             this.webControl1.Name = "webControl1";
             this.webControl1.WebView = this.webView1;
             // 
@@ -54,6 +54,8 @@ namespace Селецька
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.webControl1);
+            this.DrawerBackgroundWithAccent = true;
+            this.MaximizeBox = false;
             this.Name = "Перегляд";
             this.ResumeLayout(false);
 

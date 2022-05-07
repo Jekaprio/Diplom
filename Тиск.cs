@@ -23,6 +23,24 @@ namespace Селецька
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
             materialSkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.DeepOrange700, TextShade.WHITE);
+          
         }
+
+        private void materialButton1_Click(object sender, EventArgs e)
+        {
+            float b = float.Parse(materialTextBox1.Text);
+            double c = 101325 * b;
+            materialLabel2.Text = c.ToString() + " паскаль";
+
+        }
+        private void materialTextBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsNumber(e.KeyChar) | (e.KeyChar == Convert.ToChar(",")) | e.KeyChar == '\b') return;
+            else
+                e.Handled = true;
+        }
+
+    
     }
-}
+    }
+

@@ -139,6 +139,7 @@
     <Compile Include="Elevators.Designer.cs">
       <DependentUpon>Elevators.cs</DependentUpon>
     </Compile>
+    <Compile Include="e\KeyChar.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -168,6 +169,42 @@
     </Compile>
     <Compile Include="Form5.Designer.cs">
       <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Довжина.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Довжина.Designer.cs">
+      <DependentUpon>Довжина.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Маса.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Маса.Designer.cs">
+      <DependentUpon>Маса.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Obiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Obiem.Designer.cs">
+      <DependentUpon>Obiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Паливо.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Паливо.Designer.cs">
+      <DependentUpon>Паливо.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Площа.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Площа.Designer.cs">
+      <DependentUpon>Площа.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Температура.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Температура.Designer.cs">
+      <DependentUpon>Температура.cs</DependentUpon>
     </Compile>
     <Compile Include="Тиск.cs">
       <SubType>Form</SubType>
@@ -204,6 +241,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form5.resx">
       <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Obiem.resx">
+      <DependentUpon>Obiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Довжина.resx">
+      <DependentUpon>Довжина.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Маса.resx">
+      <DependentUpon>Маса.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Паливо.resx">
+      <DependentUpon>Паливо.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Площа.resx">
+      <DependentUpon>Площа.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Температура.resx">
+      <DependentUpon>Температура.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Тиск.resx">
       <DependentUpon>Тиск.cs</DependentUpon>
