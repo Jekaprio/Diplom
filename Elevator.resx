@@ -153,6 +153,9 @@
   <data name="&gt;&gt;webControl1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <metadata name="webView2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>124, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -2093,6 +2096,12 @@
     <value>webView1</value>
   </data>
   <data name="&gt;&gt;webView1.Type" xml:space="preserve">
+    <value>EO.WebBrowser.WebView, EO.WebBrowser, Version=21.3.18.0, Culture=neutral, PublicKeyToken=e92353a6bf73fffc</value>
+  </data>
+  <data name="&gt;&gt;webView2.Name" xml:space="preserve">
+    <value>webView2</value>
+  </data>
+  <data name="&gt;&gt;webView2.Type" xml:space="preserve">
     <value>EO.WebBrowser.WebView, EO.WebBrowser, Version=21.3.18.0, Culture=neutral, PublicKeyToken=e92353a6bf73fffc</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

@@ -116,10 +116,13 @@ namespace WindowsFormsApp2
             this.webControl1 = new EO.WinForm.WebControl();
             this.webView1 = new EO.WebBrowser.WebView();
             this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
+            this.webControl5 = new EO.WinForm.WebControl();
+            this.webView5 = new EO.WebBrowser.WebView();
             this.tab11.SuspendLayout();
             this.tab10.SuspendLayout();
             this.materialCard17.SuspendLayout();
             this.materialCard9.SuspendLayout();
+            this.tab9.SuspendLayout();
             this.tab8.SuspendLayout();
             this.materialCard22.SuspendLayout();
             this.materialCard21.SuspendLayout();
@@ -315,6 +318,7 @@ namespace WindowsFormsApp2
             // 
             // tab9
             // 
+            this.tab9.Controls.Add(this.webControl5);
             this.tab9.ImageKey = "Буряни.png";
             this.tab9.Location = new System.Drawing.Point(4, 54);
             this.tab9.Name = "tab9";
@@ -1528,6 +1532,24 @@ namespace WindowsFormsApp2
             this.materialTabControl1.Size = new System.Drawing.Size(1109, 800);
             this.materialTabControl1.TabIndex = 1;
             // 
+            // webControl5
+            // 
+            this.webControl5.BackColor = System.Drawing.Color.White;
+            this.webControl5.Location = new System.Drawing.Point(-72, 0);
+            this.webControl5.Name = "webControl5";
+            this.webControl5.Size = new System.Drawing.Size(1048, 739);
+            this.webControl5.TabIndex = 0;
+            this.webControl5.Text = "webControl5";
+            this.webControl5.WebView = this.webView5;
+            // 
+            // webView5
+            // 
+            this.webView5.InputMsgFilter = null;
+            this.webView5.ObjectForScripting = null;
+            this.webView5.Title = null;
+            this.webView5.UnloadDelay = 0;
+            this.webView5.Url = resources.GetString("webView5.Url");
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1548,6 +1570,7 @@ namespace WindowsFormsApp2
             this.materialCard17.PerformLayout();
             this.materialCard9.ResumeLayout(false);
             this.materialCard9.PerformLayout();
+            this.tab9.ResumeLayout(false);
             this.tab8.ResumeLayout(false);
             this.materialCard22.ResumeLayout(false);
             this.materialCard22.PerformLayout();
@@ -1685,6 +1708,8 @@ namespace WindowsFormsApp2
         private EO.WebBrowser.WebView webView3;
         private EO.WinForm.WebControl webControl4;
         private EO.WebBrowser.WebView webView4;
+        private EO.WinForm.WebControl webControl5;
+        private EO.WebBrowser.WebView webView5;
     }
 }
 

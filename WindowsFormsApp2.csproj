@@ -170,6 +170,42 @@
     <Compile Include="Form5.Designer.cs">
       <DependentUpon>Form5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Prodavci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prodavci.Designer.cs">
+      <DependentUpon>Prodavci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SG.Designer.cs">
+      <DependentUpon>SG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tsina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tsina.Designer.cs">
+      <DependentUpon>Tsina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ukraine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ukraine.Designer.cs">
+      <DependentUpon>Ukraine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vyrobniki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vyrobniki.Designer.cs">
+      <DependentUpon>Vyrobniki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YR_Komp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YR_Komp.Designer.cs">
+      <DependentUpon>YR_Komp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Довжина.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -244,6 +280,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Obiem.resx">
       <DependentUpon>Obiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prodavci.resx">
+      <DependentUpon>Prodavci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SG.resx">
+      <DependentUpon>SG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tsina.resx">
+      <DependentUpon>Tsina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ukraine.resx">
+      <DependentUpon>Ukraine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vyrobniki.resx">
+      <DependentUpon>Vyrobniki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YR_Komp.resx">
+      <DependentUpon>YR_Komp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Довжина.resx">
       <DependentUpon>Довжина.cs</DependentUpon>

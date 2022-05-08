@@ -37,32 +37,38 @@ namespace WindowsFormsApp2
         }
         private void Ціни_на_пальне(object sender, EventArgs e)
         {
-           
+            Tsina f = new Tsina();
+            f.ShowDialog();
         }
 
         private void Продавці(object sender, EventArgs e)
         {
-           
+            Prodavci f = new Prodavci();
+            f.ShowDialog();
         }
 
         private void Виробники_СГ_техніки(object sender, EventArgs e)
         {
-            
+            SG f = new SG();
+            f.ShowDialog();
         }
 
         private void Виробники_препаратів(object sender, EventArgs e)
         {
-            
+            Vyrobniki f = new Vyrobniki();
+            f.ShowDialog();
         }
 
         private void Перелік_юр_компаній(object sender, EventArgs e)
         {
-        
+            YR_Komp f = new YR_Komp();
+            f.ShowDialog();
         }
 
         private void Реєстрація_сортів_в_Україні(object sender, EventArgs e)
         {
-           
+            Ukraine f = new Ukraine();
+            f.ShowDialog();
         }
 
         private void Максимальні_допустимі_рівні_вмісту_пестицидів(object sender, EventArgs e)

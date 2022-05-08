@@ -1,7 +1,7 @@
 ﻿
 namespace Селецька
 {
-    partial class Перегляд
+    partial class Prodavci
     {
         /// <summary>
         /// Required designer variable.
@@ -29,17 +29,22 @@ namespace Селецька
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Перегляд));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Prodavci));
             this.webControl1 = new EO.WinForm.WebControl();
             this.webView1 = new EO.WebBrowser.WebView();
-            this.webView2 = new EO.WebBrowser.WebView();
             this.SuspendLayout();
             // 
             // webControl1
             // 
-            resources.ApplyResources(this.webControl1, "webControl1");
+            this.webControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.webControl1.BackColor = System.Drawing.Color.White;
+            this.webControl1.Location = new System.Drawing.Point(0, 62);
             this.webControl1.Name = "webControl1";
+            this.webControl1.Size = new System.Drawing.Size(967, 449);
+            this.webControl1.TabIndex = 0;
+            this.webControl1.Text = "webControl1";
             this.webControl1.WebView = this.webView1;
             // 
             // webView1
@@ -50,19 +55,14 @@ namespace Селецька
             this.webView1.UnloadDelay = 0;
             this.webView1.Url = resources.GetString("webView1.Url");
             // 
-            // webView2
+            // Prodavci
             // 
-            this.webView2.InputMsgFilter = null;
-            this.webView2.ObjectForScripting = null;
-            this.webView2.Title = null;
-            // 
-            // Перегляд
-            // 
-            resources.ApplyResources(this, "$this");
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(967, 511);
             this.Controls.Add(this.webControl1);
-            this.DrawerBackgroundWithAccent = true;
-            this.Name = "Перегляд";
+            this.Name = "Prodavci";
+            this.Text = "Продавці";
             this.ResumeLayout(false);
 
         }
@@ -71,6 +71,5 @@ namespace Селецька
 
         private EO.WinForm.WebControl webControl1;
         private EO.WebBrowser.WebView webView1;
-        private EO.WebBrowser.WebView webView2;
     }
 }
