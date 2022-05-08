@@ -43,6 +43,8 @@ namespace WindowsFormsApp2
             this.materialMultiLineTextBox9 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
             this.materialButton9 = new MaterialSkin.Controls.MaterialButton();
             this.tab9 = new System.Windows.Forms.TabPage();
+            this.webControl5 = new EO.WinForm.WebControl();
+            this.webView5 = new EO.WebBrowser.WebView();
             this.tab8 = new System.Windows.Forms.TabPage();
             this.materialCard22 = new MaterialSkin.Controls.MaterialCard();
             this.materialMultiLineTextBox22 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
@@ -116,8 +118,6 @@ namespace WindowsFormsApp2
             this.webControl1 = new EO.WinForm.WebControl();
             this.webView1 = new EO.WebBrowser.WebView();
             this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
-            this.webControl5 = new EO.WinForm.WebControl();
-            this.webView5 = new EO.WebBrowser.WebView();
             this.tab11.SuspendLayout();
             this.tab10.SuspendLayout();
             this.materialCard17.SuspendLayout();
@@ -326,6 +326,24 @@ namespace WindowsFormsApp2
             this.tab9.TabIndex = 8;
             this.tab9.Text = "Бур\'яни";
             this.tab9.UseVisualStyleBackColor = true;
+            // 
+            // webControl5
+            // 
+            this.webControl5.BackColor = System.Drawing.Color.White;
+            this.webControl5.Location = new System.Drawing.Point(-1, 0);
+            this.webControl5.Name = "webControl5";
+            this.webControl5.Size = new System.Drawing.Size(1053, 739);
+            this.webControl5.TabIndex = 0;
+            this.webControl5.Text = "webControl5";
+            this.webControl5.WebView = this.webView5;
+            // 
+            // webView5
+            // 
+            this.webView5.InputMsgFilter = null;
+            this.webView5.ObjectForScripting = null;
+            this.webView5.Title = null;
+            this.webView5.UnloadDelay = 0;
+            this.webView5.Url = resources.GetString("webView5.Url");
             // 
             // tab8
             // 
@@ -1531,24 +1549,6 @@ namespace WindowsFormsApp2
             this.materialTabControl1.ShowToolTips = true;
             this.materialTabControl1.Size = new System.Drawing.Size(1109, 800);
             this.materialTabControl1.TabIndex = 1;
-            // 
-            // webControl5
-            // 
-            this.webControl5.BackColor = System.Drawing.Color.White;
-            this.webControl5.Location = new System.Drawing.Point(-72, 0);
-            this.webControl5.Name = "webControl5";
-            this.webControl5.Size = new System.Drawing.Size(1048, 739);
-            this.webControl5.TabIndex = 0;
-            this.webControl5.Text = "webControl5";
-            this.webControl5.WebView = this.webView5;
-            // 
-            // webView5
-            // 
-            this.webView5.InputMsgFilter = null;
-            this.webView5.ObjectForScripting = null;
-            this.webView5.Title = null;
-            this.webView5.UnloadDelay = 0;
-            this.webView5.Url = resources.GetString("webView5.Url");
             // 
             // Form1
             // 

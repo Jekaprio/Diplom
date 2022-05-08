@@ -98,12 +98,14 @@ namespace WindowsFormsApp2
 
         private void Діючи_речовини_що_заборонені_в_Україні(object sender, EventArgs e)
         {
-        
+            Діючи f = new Діючи();
+            f.ShowDialog();
         }
 
         private void Групи_діючих_речовин(object sender, EventArgs e)
         {
-          
+            Group f = new Group();
+            f.ShowDialog();
         }
 
         private void Технології_від_компаній(object sender, EventArgs e)
