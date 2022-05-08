@@ -1,3 +1,2 @@
-# WindowsFormsApp2
-СТОВ СЕЛЕЦЬКА ПЗ
+# СТОВ СЕЛЕЦЬКА ПЗ
 Продукт завантажувати з сайту http://firmagro.ua.xsph.ru/
