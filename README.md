@@ -19,13 +19,13 @@
 
 </p>
 
-<h2 align="center"><a  href="http://firmagro.ua.xsph.ru">Сайт компанії</a></h2>
+<h2 align="center">Завантажувати ПЗ<a  href="http://firmagro.ua.xsph.ru">Тут</a></h2>
 
 
 ## Опис
 
 <p align="center">
-<img src="https://media.giphy.com/media/7OWdOQupgCClrZb19P/giphy.gif" width="80%"></p>
+<img src="https://media.giphy.com/media/kuJPGlhDQBHGG7kwJO/giphy.gif" width="80%"></p>
 
 СТОВ "Селецька" була розроблена за допомогою потужної мови C# з використанням бібліотеки MaterialSkin, вона поєднує в собі велику базу різних елементів для роботи працівниками. 
 
