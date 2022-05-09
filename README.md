@@ -1,7 +1,6 @@
 <h1 align="center">Програмне забезпечення СТОВ "Селецька"</h1>
 <h2 align="center">
 
-[![Mentioned in Awesome Vue.js](https://awesome.re/mentioned-badge.svg)](https://github.com/vuejs/awesome-vue)
 
 </h2>
 
