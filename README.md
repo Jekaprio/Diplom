@@ -24,7 +24,7 @@
 ## Опис
 
 <p align="center">
-<img src="https://media.giphy.com/media/kuJPGlhDQBHGG7kwJO/giphy.gif" width="80%"></p>
+<img src="https://media.giphy.com/media/kuJPGlhDQBHGG7kwJO/giphy.gif" height="80%" weight="80%"></p>
 
 СТОВ "Селецька" була розроблена за допомогою потужної мови C# з використанням бібліотеки MaterialSkin, вона поєднує в собі велику базу різних елементів для роботи працівниками. 
 
@@ -32,12 +32,32 @@
 
 ## Встановлення 
 
-Переходимо на <a href="http://firmagro.ua.xsph.ru">сайт</a>
+Переходимо на <a href="http://firmagro.ua.xsph.ru">сайт</a>. Завантажуємо встановлювач
 
-Завантажуємо встановлювач
+Він має такий вигляд
+<p align="center">
+<img src="https://i.ibb.co/XJtpvSR/1.png" width="10%"></p>
 
-Він має такий вигляд 
-<img src="https://i.ibb.co/XJtpvSR/1.png" width="80%"></p>
+На наступному кроці вибираємо мову встановлювача
+<p align="center">
+  <img src="https://i.ibb.co/LpfrfDm/2.png" width="50%"></p>
+  
+Далі потрібно прийняти ліцензійну угоду
+<p align="center">
+  <img src="https://i.ibb.co/K9BbnDL/3.png" width="50%"></p>
+  
+Наступний крок вибір папки встановлення, створення ярлику на робочому столі
+<p align="center">
+  <img src="https://i.ibb.co/9ZDMZqq/4.png" width="50%">
+  <img src="https://i.ibb.co/9g1tMgJ/6.png" width="50%">
+  </p>
+  
+Процес встановлення і завершення встановлення
+<p align="center">
+  <img src="https://i.ibb.co/56FQ9Yz/8.png" width="50%">
+  <img src="https://i.ibb.co/4j4681k/9.png" width="50%">
+  </p>
+                                                 
 
 ## Майбутні поновлення
 
