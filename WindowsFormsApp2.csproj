@@ -176,6 +176,24 @@
     <Compile Include="Group.Designer.cs">
       <DependentUpon>Group.cs</DependentUpon>
     </Compile>
+    <Compile Include="Maks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maks.Designer.cs">
+      <DependentUpon>Maks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pravaila.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pravaila.Designer.cs">
+      <DependentUpon>Pravaila.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Preparat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preparat.Designer.cs">
+      <DependentUpon>Preparat.cs</DependentUpon>
+    </Compile>
     <Compile Include="Prodavci.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -187,6 +205,12 @@
     </Compile>
     <Compile Include="SG.Designer.cs">
       <DependentUpon>SG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Texno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Texno.Designer.cs">
+      <DependentUpon>Texno.cs</DependentUpon>
     </Compile>
     <Compile Include="Tsina.cs">
       <SubType>Form</SubType>
@@ -200,11 +224,23 @@
     <Compile Include="Ukraine.Designer.cs">
       <DependentUpon>Ukraine.cs</DependentUpon>
     </Compile>
+    <Compile Include="Util.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Util.Designer.cs">
+      <DependentUpon>Util.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vyrobniki.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Vyrobniki.Designer.cs">
       <DependentUpon>Vyrobniki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Why.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Why.Designer.cs">
+      <DependentUpon>Why.cs</DependentUpon>
     </Compile>
     <Compile Include="YR_Komp.cs">
       <SubType>Form</SubType>
@@ -293,8 +329,17 @@
     <EmbeddedResource Include="Group.resx">
       <DependentUpon>Group.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Maks.resx">
+      <DependentUpon>Maks.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Obiem.resx">
       <DependentUpon>Obiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pravaila.resx">
+      <DependentUpon>Pravaila.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preparat.resx">
+      <DependentUpon>Preparat.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Prodavci.resx">
       <DependentUpon>Prodavci.cs</DependentUpon>
@@ -302,14 +347,23 @@
     <EmbeddedResource Include="SG.resx">
       <DependentUpon>SG.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Texno.resx">
+      <DependentUpon>Texno.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tsina.resx">
       <DependentUpon>Tsina.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ukraine.resx">
       <DependentUpon>Ukraine.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Util.resx">
+      <DependentUpon>Util.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vyrobniki.resx">
       <DependentUpon>Vyrobniki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Why.resx">
+      <DependentUpon>Why.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="YR_Komp.resx">
       <DependentUpon>YR_Komp.cs</DependentUpon>

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="materialMultiLineTextBox1.Text" xml:space="preserve">
+    <value>Хімічні засоби захисту рослин, такі як пестициди і агрохімікати – це товари сезонного використання і їх тара повинна гарантувати збереження якості продукту навіть при довгостроковому зберіганні. Тому пестициди і агрохімікати фасуються в спеціальну тару з полімерних матеріалів. Після втрати споживчих властивостей вона підлягає утилізації. Використання її для зберігання води, харчових продуктів, корми для тварин та інших побутових потреб категорично забороняється.
+Сьогодні в Україні тара з-під ЗЗР, здебільшого викидається або повторно використовується для виготовлення фальсифікату. Ці фактори значно підвищують ризики забруднення довкілля та негативно впливають на здоров’я людини. 
+Оскільки пластик сам по собі є матеріалом практично «вічним», що не розкладається з часом, а його спалювання може завдати шкоди людині та навколишньому природному середовищу, утилізація такої тари повинна проводитися не самими господарюючими суб'єктами, а спеціалізованим підприємством.
+А у випадку з тарою з-під пестицидів і агрохімікатів, яка виділена в окрему групу стійких органічних забруднювачів, додається проблема високої токсичності і біоакумулятивних властивостей. Тому на території сільгосппідприємств повинні бути передбачені приміщення для тимчасового зберігання тари, з твердим водонепроникним покриттям та обладнанням, що виключає забруднення навколишнього середовища при зберіганні відходів.
+Хімічні речовини, які входять до складу пестицидів і агрохімікатів, можуть бути небезпечними для здоров’я людини. Вони осідають на стінках порожньої тари з-під засобів захисту рослин (ЗЗР), тому порожню тару треба тричі промивати. Тричі промита тара мінімізує ризики для здоров’я людини й довкілля.
+Одразу після потрійного промивання порожньої тари з-під пестицидів її треба проколоти, щоб унеможливити повторне використання цієї тари з побутовою метою.
+Непромита порожня тара
+Небезпечна для здоров’я користувача
+Токсична
+Марнує ваші гроші
+Збільшує витрати на утилізацію
+Забруднює довкілля
+Переваги потрійного промивання порожньої тари з-під ЗЗР
+Європейські фахівці аргументовано довели: в результаті потрійного промивання порожньої тари з неї видаляється до 100 % решток хімічних речовин, які є водорозчинними або утворюють емульсії.
+Переваги потрійного промивання порожньої тари з-під пестицидів і агрохімікатів:
+Це береже здоров’я користувача
+Звільняє фермерів від потреби мати справу з небезпечними відходами
+Заощаджує кошти користувача завдяки повному вимиванню вмісту контейнера в робочий розчин
+Забезпечує знезараження тари і дозволяє перетворити використану тару на безпечну для людей, тварин і довкілля
+Робить транспортування використаної тари безпечним
+Дозволяє зменшити витрати на утилізацію
+Дозволяє далі утилізувати тару, що раціонально з екологічного погляду
+Перетворює промиту тару на вторинну сировину, придатну для повторної переробки
+Усуває проблему спалювання використаної тари, адже спалювання – процес дуже небезпечний для людей і довкілля внаслідок викидів в атмосферу хімічно небезпечних речовин
+Отже, потрійне промивання використаної тари дозволяє зменшити питому вагу показників утворення хімічно небезпечних відходів, зменшити витрати на утилізацію цих відходів та сприяє захисту довкілля.</value>
+  </data>
+</root>

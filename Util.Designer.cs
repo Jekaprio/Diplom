@@ -1,7 +1,7 @@
 ﻿
 namespace Селецька
 {
-    partial class Ukraine
+    partial class Util
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Селецька
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ukraine));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Util));
             this.materialMultiLineTextBox1 = new MaterialSkin.Controls.MaterialMultiLineTextBox();
             this.SuspendLayout();
             // 
@@ -41,25 +41,26 @@ namespace Селецька
             this.materialMultiLineTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.materialMultiLineTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.materialMultiLineTextBox1.Depth = 0;
-            this.materialMultiLineTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.materialMultiLineTextBox1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialMultiLineTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialMultiLineTextBox1.Hint = "";
-            this.materialMultiLineTextBox1.Location = new System.Drawing.Point(2, 63);
+            this.materialMultiLineTextBox1.Location = new System.Drawing.Point(0, 64);
             this.materialMultiLineTextBox1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialMultiLineTextBox1.Name = "materialMultiLineTextBox1";
             this.materialMultiLineTextBox1.ReadOnly = true;
-            this.materialMultiLineTextBox1.Size = new System.Drawing.Size(965, 452);
+            this.materialMultiLineTextBox1.Size = new System.Drawing.Size(967, 448);
             this.materialMultiLineTextBox1.TabIndex = 0;
             this.materialMultiLineTextBox1.Text = resources.GetString("materialMultiLineTextBox1.Text");
             // 
-            // Ukraine
+            // Util
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(967, 511);
             this.Controls.Add(this.materialMultiLineTextBox1);
-            this.Name = "Ukraine";
-            this.Text = "Реєстрація сортів в Україні";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Util";
+            this.Text = "Утилізація пестицидів";
             this.ResumeLayout(false);
 
         }

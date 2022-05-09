@@ -73,27 +73,32 @@ namespace WindowsFormsApp2
 
         private void Максимальні_допустимі_рівні_вмісту_пестицидів(object sender, EventArgs e)
         {
-           
+            Maks f = new Maks();
+            f.ShowDialog();
         }
 
         private void Утилізації_пестицидів(object sender, EventArgs e)
         {
-          
+            Util f = new Util();
+            f.ShowDialog();
         }
 
         private void Правила_поводження_з_тарою_від_ЗЗР(object sender, EventArgs e)
         {
-           
+            Pravaila f = new Pravaila();
+            f.ShowDialog();
         }
 
         private void Основні_питання_попестицидах(object sender, EventArgs e)
         {
-    
+            Why f = new Why();
+            f.ShowDialog();
         }
 
         private void Препаративні_форми_пестицидів_агрохімікатів_добрив(object sender, EventArgs e)
         {
-         
+            Preparat f = new Preparat();
+            f.ShowDialog();
         }
 
         private void Діючи_речовини_що_заборонені_в_Україні(object sender, EventArgs e)
@@ -110,7 +115,8 @@ namespace WindowsFormsApp2
 
         private void Технології_від_компаній(object sender, EventArgs e)
         {
-           
+            Texno f = new Texno();
+            f.ShowDialog();
         }
 
         private void materialButton12_Click(object sender, EventArgs e)
