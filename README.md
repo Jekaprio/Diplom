@@ -19,7 +19,7 @@
 
 </p>
 
-<h2 align="center">Завантажувати ПЗ <a  href="http://firmagro.ua.xsph.ru">Тут</a></h2>
+<h2 align="center">Завантажувати пз <a  href="http://firmagro.ua.xsph.ru">Тут</a></h2>
 
 
 ## Опис
