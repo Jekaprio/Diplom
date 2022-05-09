@@ -13,17 +13,10 @@
 
 <img src="https://img.shields.io/github/checks-status/Jekaprio/Diplom/%D0%A1%D0%B5%D0%BB%D0%B5%D1%86%D1%8C%D0%BA%D0%B0">
 
-<img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" >
+<img src="https://img.shields.io/github/commit-activity/w/Jekaprio/Diplom" >
 
-<img src="https://beerpay.io/silent-lad/VueSolitaire/badge.svg?style=flat">
+<img src="https://img.shields.io/github/repo-size/Jekaprio/Diplom">
 
-<img src="https://img.shields.io/github/stars/silent-lad/VueSolitaire.svg?style=flat">
-
-<img src="https://img.shields.io/github/languages/top/silent-lad/VueSolitaire.svg">
-
-<img src="https://img.shields.io/github/issues/silent-lad/VueSolitaire.svg">
-
-<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat">
 </p>
 
 <img src="./readme_assets/h2.png" width="100%">
