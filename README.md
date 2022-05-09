@@ -9,7 +9,7 @@
   
 <img src="https://img.shields.io/github/issues/Jekaprio/Diplom">
 
-<img src="https://img.shields.io/badge/made%20by-silentlad-blue.svg" >
+<img src="https://img.shields.io/tokei/lines/github/Jekaprio/Diplom" >
 
 <img src="https://img.shields.io/badge/vue-2.2.4-green.svg">
 
