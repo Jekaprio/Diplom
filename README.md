@@ -7,7 +7,7 @@
 
 <p align="center">
   
-<img src=https://img.shields.io/github/issues/Jekaprio/Diplom">
+<img src="https://img.shields.io/github/issues/Jekaprio/Diplom">
 
 <img src="https://img.shields.io/badge/made%20by-silentlad-blue.svg" >
 
