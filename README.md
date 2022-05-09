@@ -11,7 +11,7 @@
 
 <img src="https://img.shields.io/tokei/lines/github/Jekaprio/Diplom" >
 
-<img src="https://img.shields.io/badge/vue-2.2.4-green.svg">
+<img src="https://img.shields.io/github/checks-status/Jekaprio/Diplom/%D0%A1%D0%B5%D0%BB%D0%B5%D1%86%D1%8C%D0%BA%D0%B0">
 
 <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" >
 
